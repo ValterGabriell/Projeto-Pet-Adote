@@ -17,23 +17,52 @@
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Sobre](#Sobre)
-   * [Tabela de Conteudo](#tabela-de-conteudo)
-   * [Instalação](#instalacao)
+   * [Sobre](#sobre)
    * [Como usar](#como-usar)
       * [Pre Requisitos](#pre-requisitos)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
+      * [Endpoints](#endpoints)  
    * [Tests](#testes)
    * [Tecnologias](#tecnologias)
 <!--te-->
 
+<h1>Sobre</h1>
+<p>O projeto é o backend de uma aplicação que eu estarei criando, um clone do aplicativo "Adota Pet GO" que pode ser encontrado nas lojas de aplicativos ou clicando <a href = "https://play.google.com/store/apps/details?id=com.labup.adotapetv2&hl=pt_BR&gl=US">aqui</a>.
+   O repositório do aplicativo, que está sendo desenvolvido nativamente para Android pode ser encontrado clicando <a href = "https://play.google.com/store/apps/details?id=com.labup.adotapetv2&hl=pt_BR&gl=US">aqui</a>. Foi feito o depoly do projeto para a plataforma do <a href = "https://play.google.com/store/apps/details?id=com.labup.adotapetv2&hl=pt_BR&gl=US">Heroku</a>.</br>
 
-    ![heroku](https://user-images.githubusercontent.com/63808405/171037290-c4fb34b0-f90c-4b4e-a172-8feec9275a43.svg)
+<h1>Como usar</h1>
+<h2>Pré-requisitos</h2>
+<img src="https://user-images.githubusercontent.com/63808405/171037587-3c6b6b8f-e9c3-4b97-b4b0-a54d6c9fb8dc.png" width = "250px"></br>
+<p>Antes de começar, você deve ter instalado em sua máquina o Insomnia. Podendo ser baixado através desse <a href = "https://insomnia.rest/download">link</a>.</br>
+<h2>Endpoints</h2>
+<p>Após ter feito a instalação, abra o programa e você poderá criar requisições web através de @Get, @Post, @Put, @Delete, @Patch, entre outras. E para começar a usar os endpoints dessa aplicação pode-se começar criando um usuário. Crie uma nova requisição @Post, ponha o "Body" como "Json" e coloque a seguinte url:</br>
 
+```bash
+https://adote-pet-221b.herokuapp.com/audote/usuarios/cadastro
+``` 
+O formato de json da criação de usuário deve seguir o seguinte padrão:
 
+```bash
+{"nome":"teste"
+,"email":"teste@hotmail.com"
+,"senha":"asdsdf"
+,"img":"img"
+,"contato":"contatoteste"
+,"cep":"cep"
+,"logradouro":"logradouro"
+,"bairro":"bairro"
+,"cidade":"cidade"
+,"uf":"uf"}
+``` 
+Feito isso, você pode verificar se está tudo certo criando uma nova requisição @Get, ponha o "Body" como "Json" e coloque a seguinte url:</br>
 
-<h1> 📁 Acesso ao projeto </h1></br>
-Você pode clonar o projeto clonando o repositorio a parti de
+```bash
+https://adote-pet-221b.herokuapp.com/audote/usuarios
+``` 
+
+Em seguida, certifique-se de que a resposta foi correta. Se sim, podemos prosseguir para o passo de criar um animal dessa vez. Faça isso criando uma nova requisição @Post para a seguinte url:
+
+```bash
+https://adote-pet-221b.herokuapp.com/audote/data/animais
+``` 
+
+O formato de json da criação de usuário deve seguir o seguinte padrão:
