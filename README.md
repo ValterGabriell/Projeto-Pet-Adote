@@ -92,7 +92,7 @@ Em seguida, certifique-se de que a resposta foi correta.</br>
 https://adote-pet-221b.herokuapp.com/audote/usuarios/{id}
 ``` 
 
-- Logar usuáro
+- Logar usuário
 ```bash
 @Post
 https://adote-pet-221b.herokuapp.com/audote/usuarios/login
