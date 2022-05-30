@@ -144,6 +144,6 @@ https://adote-pet-221b.herokuapp.com/audote/data/animais/{id}
 Feito por Valter Gabriel 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Gabriel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/valter-gabriel/)](https://www.linkedin.com/in/valter-gabriel/) 
-[![Gmail Badge](https://img.shields.io/badge/-vgabrielbri@hotmail.com-c14438?style=flat-square&logo=Hotmail&logoColor=white&link=mailto:vgabrielbri@hotmail.com)](vgabrielbri@hotmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-vgabrielbri@hotmail.com-c14438?style=flat-square&logo=Hotmail&logoColor=white&link=mailto:vgabrielbri@hotmail.com)]
 
 
