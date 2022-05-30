@@ -124,6 +124,18 @@ https://adote-pet-221b.herokuapp.com/audote/data/animais/{id}
 https://adote-pet-221b.herokuapp.com/audote/data/animais/{id}
 ```
 
+- Obter animal por id
+```bash
+@Get
+https://adote-pet-221b.herokuapp.com/audote/data/animais/{id}
+```
+
+- Obter animal por dono
+```bash
+@Get
+https://adote-pet-221b.herokuapp.com/audote/data/animais/{id-dono}/lista
+```
+
 <h1>Tecnologias</h1>
 - Spring Boot</br>
 - Arquitetura MVC</br>
