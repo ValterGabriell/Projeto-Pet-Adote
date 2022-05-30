@@ -99,8 +99,8 @@ https://adote-pet-221b.herokuapp.com/audote/usuarios/login
 ``` 
 Com formato json da seguinte maneira:
 ```bash
-{"dono":1
-,"username":"teste"
+{"email":teste@gmail.com
+,"senha":"teste"
 ``` 
 
 - Deletar usuario
