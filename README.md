@@ -70,8 +70,8 @@ O formato de json da criação de usuário deve seguir o seguinte padrão:
 ,"vacinado":"sim"
 ,"historico":"foi atropelado quando pequeno"
 ,"fotos":[
-{"img":"img","img":"img"
-]}
+"img":"img","img":"img"
+]
 ``` 
 
 Feito isso, você pode verificar se está tudo certo criando uma nova requisição @Get, ponha o "Body" como "Json" e coloque a seguinte url:</br>
