@@ -1,5 +1,5 @@
-<h1 align="center"> Seu título aqui </h1>
-<p align="center">Escrever uma breve descrição</p>
+<h1 align="center">Adota Pet GO (Clone)</h1>
+<p align="center">Sistema backend para o aplicativo clone de Adota Pet GO</p>
 <h4 align="center"> 
     :construction:  Projeto em construção  :construction:
 </h4>
@@ -7,19 +7,12 @@
     <img src="https://img.shields.io/static/v1?label=Heroku&message=Working&color=#430098&style=flat&logo=heroku"/>
     </h2>
 
-### Features
-
-- [x] Cadastro de usuário
-- [x] Cadastro de cliente
-- [ ] Cadastro de produtos
-
-
 Tabela de conteúdos
 =================
 <!--ts-->
    * [Sobre](#sobre)
    * [Como usar](#como-usar)
-      * [Pre Requisitos](#pre-requisitos)
+      * [Pré-Requisitos](#pre-requisitos)
       * [Endpoints](#endpoints)  
    * [Tecnologias](#tecnologias)
    * [Créditos](#creditos)
