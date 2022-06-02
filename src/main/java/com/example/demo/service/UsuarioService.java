@@ -38,8 +38,12 @@ public class UsuarioService {
         return repositorioUsuario.findAll();
     }
 
+    public List<Usuario> obterUsuarioPorCidade(String cidade) {
+        return repositorioUsuario.findByCity(cidade);
+    }
+
     public Optional<Usuario> obterPorId(long id) {
-       return repositorioUsuario.findById(id);
+        return repositorioUsuario.findById(id);
     }
 
     public Optional<Usuario> obterPorEmail(String email) {

@@ -80,7 +80,6 @@ public class AnimaisController {
                     HttpStatus.OK
             );
         }
-
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
