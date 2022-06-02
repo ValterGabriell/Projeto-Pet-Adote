@@ -92,6 +92,12 @@ Em seguida, certifique-se de que a resposta foi correta.</br>
 https://adote-pet-221b.herokuapp.com/audote/usuarios/{id}
 ``` 
 
+- Obter usuario por cidade
+```bash
+@Get
+https://adote-pet-221b.herokuapp.com/audote/usuarios/filtrando_cidade/{cidade}
+``` 
+
 - Logar usuário
 ```bash
 @Post
@@ -108,6 +114,8 @@ Com formato json da seguinte maneira:
 @Delete
 https://adote-pet-221b.herokuapp.com/audote/usuarios/{id}
 ``` 
+
+
 
 <h4>Animais</h4>
 
