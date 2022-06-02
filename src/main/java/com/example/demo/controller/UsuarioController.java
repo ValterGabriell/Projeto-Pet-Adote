@@ -29,7 +29,7 @@ public class UsuarioController {
         return servicoUsuario.obterPorId(id);
     }
 
-    @GetMapping("/cidade")
+    @GetMapping("/{cidade}")
     public List<Usuario> obterUsuarioPorCidade(@PathVariable("cidade") String cidade) {
         return servicoUsuario.obterUsuarioPorCidade(cidade);
     }
