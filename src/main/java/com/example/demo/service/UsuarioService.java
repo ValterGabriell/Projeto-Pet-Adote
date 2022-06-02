@@ -39,7 +39,7 @@ public class UsuarioService {
     }
 
     public List<Usuario> obterUsuarioPorCidade(String cidade) {
-        return repositorioUsuario.findByCity(cidade);
+        return repositorioUsuario.findByCidade(cidade);
     }
 
     public Optional<Usuario> obterPorId(long id) {
