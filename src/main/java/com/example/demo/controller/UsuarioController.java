@@ -5,6 +5,7 @@ import com.example.demo.model.LoginModel.LoginResponse;
 import com.example.demo.model.Usuario;
 import com.example.demo.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.parameters.P;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -23,13 +24,14 @@ public class UsuarioController {
         return servicoUsuario.obterTodos();
     }
 
-    @GetMapping("/{id}")
-    public Optional<Usuario> obterUsuarioPorId(@PathVariable("id") long id) {
 
+
+    @RequestMapping(path = "/{id}")
+    public Optional<Usuario> obterUsuarioPorId(@PathVariable("id") long id) {
         return servicoUsuario.obterPorId(id);
     }
 
-    @GetMapping("/{cidade}")
+    @RequestMapping(path = "filtrando_cidade/{cidade}")
     public List<Usuario> obterUsuarioPorCidade(@PathVariable("cidade") String cidade) {
         return servicoUsuario.obterUsuarioPorCidade(cidade);
     }
